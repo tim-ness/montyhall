@@ -1,0 +1,21 @@
+Package: montyhall
+Title: Simulate the Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tim",
+           family = "Ness",
+           role = c("aut", "cre"),
+           email = "tim.ness@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package runs a simulation of the classic Monty Hall game. During that game, a contestant was presented with three doors.
+		Behind two doors were goats, and behind the third was a car. The contestant chose one door, and then the host opened another
+		door that revealed a goat. The contestant chose to stay with their original choice or move to the other unopened door, and kept
+		what the door revealed. This simulation is to see if it is better to stay with the original door or switch.
+Depend:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
